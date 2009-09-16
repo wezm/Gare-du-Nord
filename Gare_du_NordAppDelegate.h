@@ -12,11 +12,13 @@
     NSWindow *window;
 	NSProgressIndicator *progress_bar;
 	NSTextField *progress_label;
+	NSButton *go_button;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSProgressIndicator *progress_bar;
 @property (assign) IBOutlet NSTextField *progress_label;
+@property (assign) IBOutlet NSButton *go_button;
 
 - (IBAction)depart:(id)sender;
 

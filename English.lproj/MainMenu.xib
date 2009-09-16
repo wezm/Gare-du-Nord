@@ -1329,7 +1329,7 @@
 					<int key="NSvFlags">256</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSProgressIndicator" id="986098310">
+						<object class="NSProgressIndicator" id="90159419">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">1292</int>
 							<object class="NSPSMatrix" key="NSDrawMatrix"/>
@@ -1338,22 +1338,22 @@
 							<int key="NSpiFlags">16394</int>
 							<double key="NSMaxValue">100</double>
 						</object>
-						<object class="NSTextField" id="123160816">
+						<object class="NSTextField" id="746911802">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{17, 35}, {286, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSTextFieldCell" key="NSCell" id="390422062">
+							<object class="NSTextFieldCell" key="NSCell" id="192361393">
 								<int key="NSCellFlags">68288064</int>
 								<int key="NSCellFlags2">272630784</int>
 								<string key="NSContents">Progress…</string>
-								<object class="NSFont" key="NSSupport" id="783519469">
+								<object class="NSFont" key="NSSupport" id="994376314">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">13</double>
 									<int key="NSfFlags">1044</int>
 								</object>
-								<reference key="NSControlView" ref="123160816"/>
+								<reference key="NSControlView" ref="746911802"/>
 								<object class="NSColor" key="NSBackgroundColor">
 									<int key="NSColorSpace">6</int>
 									<string key="NSCatalogName">System</string>
@@ -1374,18 +1374,18 @@
 								</object>
 							</object>
 						</object>
-						<object class="NSButton" id="564573246">
+						<object class="NSButton" id="629014890">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{302, 12}, {96, 32}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="327941673">
+							<object class="NSButtonCell" key="NSCell" id="890760434">
 								<int key="NSCellFlags">-2080244224</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">Go</string>
-								<reference key="NSSupport" ref="783519469"/>
-								<reference key="NSControlView" ref="564573246"/>
+								<reference key="NSSupport" ref="994376314"/>
+								<reference key="NSControlView" ref="629014890"/>
 								<int key="NSButtonFlags">-2038284033</int>
 								<int key="NSButtonFlags2">129</int>
 								<string key="NSAlternateContents"/>
@@ -2095,7 +2095,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">depart:</string>
 						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="564573246"/>
+						<reference key="destination" ref="629014890"/>
 					</object>
 					<int key="connectionID">540</int>
 				</object>
@@ -2103,7 +2103,7 @@
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">progress_bar</string>
 						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="986098310"/>
+						<reference key="destination" ref="90159419"/>
 					</object>
 					<int key="connectionID">541</int>
 				</object>
@@ -2111,9 +2111,17 @@
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">progress_label</string>
 						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="123160816"/>
+						<reference key="destination" ref="746911802"/>
 					</object>
 					<int key="connectionID">542</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">go_button</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="629014890"/>
+					</object>
+					<int key="connectionID">543</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2670,9 +2678,9 @@
 						<reference key="object" ref="439893737"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="986098310"/>
-							<reference ref="564573246"/>
-							<reference ref="123160816"/>
+							<reference ref="90159419"/>
+							<reference ref="629014890"/>
+							<reference ref="746911802"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3164,36 +3172,36 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">533</int>
-						<reference key="object" ref="986098310"/>
+						<reference key="object" ref="90159419"/>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">534</int>
-						<reference key="object" ref="123160816"/>
+						<reference key="object" ref="746911802"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="390422062"/>
+							<reference ref="192361393"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">535</int>
-						<reference key="object" ref="390422062"/>
-						<reference key="parent" ref="123160816"/>
+						<reference key="object" ref="192361393"/>
+						<reference key="parent" ref="746911802"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">536</int>
-						<reference key="object" ref="564573246"/>
+						<reference key="object" ref="629014890"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="327941673"/>
+							<reference ref="890760434"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">537</int>
-						<reference key="object" ref="327941673"/>
-						<reference key="parent" ref="564573246"/>
+						<reference key="object" ref="890760434"/>
+						<reference key="parent" ref="629014890"/>
 					</object>
 				</object>
 			</object>
@@ -3732,7 +3740,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">542</int>
+			<int key="maxID">543</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3748,12 +3756,14 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>go_button</string>
 							<string>progress_bar</string>
 							<string>progress_label</string>
 							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>NSButton</string>
 							<string>NSProgressIndicator</string>
 							<string>NSTextField</string>
 							<string>NSWindow</string>
